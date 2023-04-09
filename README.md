@@ -14,3 +14,4 @@ https://youtu.be/Tt_tKhhhJqY
 1. /dog -> res.json()
 1. /user/:id -> q = req.params; q.id
 1. /user/:id?q=jocoding&name=jo&age=20 -> q = req.query; q.q
+1. /sound/:name -> 동물소리 json 응답
