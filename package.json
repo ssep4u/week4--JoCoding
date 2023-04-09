@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/ssep4u/week4--JoCoding/issues"
   },
-  "homepage": "https://github.com/ssep4u/week4--JoCoding#readme",
-  "dependencies": {
-    "figlet": "^1.6.0"
-  }
+  "homepage": "https://github.com/ssep4u/week4--JoCoding#readme"
 }
