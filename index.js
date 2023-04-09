@@ -11,6 +11,10 @@ app.get('/dog', (req, res) => {
 app.get('/cat', (req, res) => {
     res.json({'sound': '야옹'})
 })
+app.get('/user/:id', (req, res) => {
+    const q = req.params
+    console.log(q)
+})
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
