@@ -9,6 +9,7 @@ https://youtu.be/Tt_tKhhhJqY
     1. npm i express
         1. express Hello World
         1. localhost:3000
+    1. npm install cors
 ---
 ## express
 1. /dog -> res.json()
