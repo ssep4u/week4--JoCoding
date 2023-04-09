@@ -12,8 +12,11 @@ app.get('/cat', (req, res) => {
     res.json({'sound': '야옹'})
 })
 app.get('/user/:id', (req, res) => {
-    const q = req.params
-    console.log(q)
+    // const q = req.params
+    // console.log(q.id)
+    const q = req.query
+    console.log(q.name)
+    res.json({'userid': q.q})
 })
 
 app.listen(port, () => {

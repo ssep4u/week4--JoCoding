@@ -12,4 +12,5 @@ https://youtu.be/Tt_tKhhhJqY
 ---
 ## express
 1. /dog -> res.json()
-1. /user/:id -> req.params
+1. /user/:id -> q = req.params; q.id
+1. /user/:id?q=jocoding&name=jo&age=20 -> q = req.query; q.q
